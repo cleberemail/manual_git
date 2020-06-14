@@ -1,8 +1,8 @@
 # Estudo sobre GIT e GITHUB
 
 **Qual o motivo para utilizar o GIT**
-- Controlar as versões do seu projeto
-- Organização
+- Controlar versões do projeto.
+- Organização.
 - Branching (As vezes você esta no meio de um desenvolvimento e derrepente surge uma ideia, utilizando GIT você pode criar uma branch e verificar se a ideia é valida, caso não seja basta exlcuir a branch) 
 
 **Qual o motivo para usar o GITHUB**
