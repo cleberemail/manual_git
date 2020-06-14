@@ -116,15 +116,30 @@ A segunda opção ensina a enviar um repositório existente a através da linha 
 
 Volte ao GitHub e explore as alterações do seu repositório remoto. 
 
+# Branch
 
-Em breve estarei falando sobre as branch
+Branch é uma ramificação no git é um ponteiro para as alterações feitas nos arquivos do projeto. É útil em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável não seja mesclado nos arquivos do projeto principal. Depois de concluir a atualização dos códigos da ramificação, você pode mesclar a ramificação com a principal, geralmente chamada de master. (fonte [receitasdecodigo](https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch "receitasdecodigo"))
 
-**Branch**
+Criar uma nova branch
 
-**git branch** - mostra a lista de branch
-**git branch nome_da_nova_branch** - server para criar uma nova branch
-**git checkout -b nome_da_nova_branch** - server para criar uma nova branch e ir para esta nova branch
-**git checkout nome_da_branch** - serve para trocar de branch
-**git branch -D nome_da_branch** - serve para deletar uma branch
-**git push origin nome_da_branch** - serve para enviar a nossa branch do repositório local para o repositório remoto
-**git commit -a -m <comentário>**
+    git branch nome_da_nova_branch
+
+Trocar de Branch
+
+    git checkout nome_da_branch
+
+Criar uma nova branch e ir para esta nova branch
+
+    git checkout -b nome_da_nova_branch
+
+Mostra a lista de branch
+
+    git branch
+
+Deletar uma branch
+
+    git branch -D nome_da_branch
+
+Enviar a branch para o repositório remoto
+
+    git push origin nome_da_branch
