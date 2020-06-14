@@ -1,11 +1,12 @@
 # Estudo sobre GIT e GITHUB
 
-**Qual o motivo para utilizar o GIT**
+#### Qual o motivo para utilizar o GIT
+
 - Controlar versões do projeto.
 - Organização.
 - Branching (As vezes você esta no meio de um desenvolvimento e derrepente surge uma ideia, utilizando GIT você pode criar uma branch e verificar se a ideia é valida, caso não seja basta exlcuir a branch) 
 
-**Qual o motivo para usar o GITHUB**
+#### Qual o motivo para usar o GITHUB
 Existem diversos motivos, porém os mais importantes são:
 
 - Compartilhe seus projetos
@@ -14,17 +15,17 @@ Existem diversos motivos, porém os mais importantes são:
 - Fazer network e amigos
 - Aprenda e colaborar
 
-**README**
+#### Readme
 
- - É feito em markdown -
+ - É feito em markdown
    [https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)
    
-- Link de editor de README -
-[https://pandao.github.io/editor.md/index.html](https://pandao.github.io/editor.md/index.html)
+- Link de editor de README
+[https://pandao.github.io/editor.md/en.html](https://pandao.github.io/editor.md/en.html)
 
-## Então, vamos realizar alguns testes básicos?
+#### Abaixo realizei um passo a passo dos comandos básicos
 
-Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
+:fa-arrow-right: Utilizei o Windows PowerShell
 
 **Cria uma pasta para realizar os testes GIT**
 
@@ -36,7 +37,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
 
     git init
 
-*Resultado *
+:fa-arrow-right: *Resultado*
 
     Initialized empty Git repository in C:/paginas/trabalhos/git/manual_git/.git/
 
@@ -44,7 +45,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
 
     git status 
 
-*Resultado*
+:fa-arrow-right: *Resultado*
 
     On branch master
     No commits yet
@@ -56,7 +57,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
     ni index.html 	
 	git status
 
-*Resultado*
+:fa-arrow-right: *Resultado*
 
     On branch master
     No commits yet
@@ -70,7 +71,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
     git add
 	git status
 
-*Resultado*
+:fa-arrow-right: *Resultado*
 
     On branch master    
     No commits yet    
@@ -82,7 +83,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
 
     git commit -m "Meu primeiro commit do manual de estudo GIT"
 
-*Resultado*
+ :fa-arrow-right: *Resultado*
 
     [master (root-commit) 7fe1451] Meu primeiro commit do manual de estudo GIT
      1 file changed, 0 insertions(+), 0 deletions(-)
@@ -97,7 +98,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
     git log --graph (Para uma representação gráfica baseada em texto do histórico)
     git log -p -2 (Exibir histórico com diff das duas últimas alterações)
 
-*Resultado de um git log simples*
+:fa-arrow-right: *Resultado de um git log simples*
 
     commit 7fe1451ddf00f50a2943622f2c77173559db8037 (HEAD -> master)
     Author: Cleber Costa <cleber.email@gmail.com>
@@ -106,6 +107,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
   
 **Caso vocês tenha cometido algum erro, você pode remover o ser repositório local utilizando o comando
 **
+
     rm -rf .git
 
 **Verificar as modificações do arquivo com git diff**
@@ -113,7 +115,7 @@ Utilizei o Windows PowerShell, mas você pode utilizar o terminar o Linux ou MAC
 
     git diff index.html
 
-*Resultado (Nota o sinal de + na linha que foi adicionada ao arquivo index.html)*
+:fa-arrow-right: *Resultado (Nota o sinal de + na linha que foi adicionada ao arquivo index.html)*
 
     diff --git a/index.html b/index.html
     index e69de29..faf65ce 100644
