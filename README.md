@@ -116,7 +116,7 @@ A segunda opção ensina a enviar um repositório existente a através da linha 
 
 Volte ao GitHub e explore as alterações do seu repositório remoto. 
 
-# Branch
+# BRANCH
 
 Branch é uma ramificação no git é um ponteiro para as alterações feitas nos arquivos do projeto. É útil em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável não seja mesclado nos arquivos do projeto principal. Depois de concluir a atualização dos códigos da ramificação, você pode mesclar a ramificação com a principal, geralmente chamada de master. (fonte [receitasdecodigo](https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch "receitasdecodigo"))
 
