@@ -200,12 +200,7 @@ A segunda opção ensina a enviar um repositório existente a através da linha 
 3. git commit -m "segundo commit"
 4. git push
 
-
-    git add .\index.html
-    git commit -m "segundo commit do index.html"
-    git push
-
-Volte ao GitHub e explore as alterações do seu repositório remoto. 
+Volte ao GitHub e explore as alterações do seu repositório remoto.
 
 
 Em breve estarei falando sobre as branch
@@ -213,9 +208,15 @@ Em breve estarei falando sobre as branch
 **Branch**
 
 **git branch** - mostra a lista de branch
+
 **git branch nome_da_nova_branch** - server para criar uma nova branch
+
 **git checkout -b nome_da_nova_branch** - server para criar uma nova branch e ir para esta nova branch
+
 **git checkout nome_da_branch** - serve para trocar de branch
+
 **git branch -D nome_da_branch** - serve para deletar uma branch
+
 **git push origin nome_da_branch** - serve para enviar a nossa branch do repositório local para o repositório remoto
+
 **git commit -a -m <comentário>**
